@@ -1,0 +1,20 @@
+{
+  "name": "test extension",
+  "short_name": "test-ext",
+  "version": "0.0.1",
+  "description": "test playground.",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "file:///*"
+  ]
+}
